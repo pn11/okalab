@@ -1,0 +1,25 @@
+.twicon img {
+    max-width: 100%;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.tag-list .span-tag {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.tag-list .span-tag::before {
+    content: "#";
+}
+
+.site-header {
+    background-image: url(/assets/desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px !important;
+}
+
+.site-title {
+    color: lightgray !important;
+}

@@ -1,0 +1,6 @@
+# http://jekyllrb-ja.github.io/docs/datafiles/
+
+- title: About
+  url: about
+- title: お知らせ一覧
+  url: news

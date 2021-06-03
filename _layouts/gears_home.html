@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<h2>備品</h2>
+  <ul>
+  {% for page in site.pages%}
+    {% if page.layout == "gears" %}
+        <li><a href="{{page.url}}">{{page.title | strip}}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>      

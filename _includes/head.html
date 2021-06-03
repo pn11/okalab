@@ -1,0 +1,30 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="shortcut icon" href="{{ site.url }}/favicon.jpg" >
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+  <script src="https://kit.fontawesome.com/92995ae33b.js" crossorigin="anonymous"></script>
+  <!-- mathjax -->
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  <!-- Twitter cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@nowohyeah">
+  <meta name="twitter:creator" content="@nowohyeah">
+  <meta name="twitter:title" content="{{ page.title }}">
+  {%- if page.excerpt -%}
+    <!-- episode page は抜粋を表示する (Markdown syntax が入らないようにする)-->
+    <meta name="twitter:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+    {%- else -%}
+    <!-- その他のページは _config.yml の description を使う -->
+    <meta name="twitter:description" content="{{ site.description }}">
+  {%- endif -%}
+  <meta name="twitter:image" content="{{ site.url }}/favicon.jpg">
+  <!-- end of Twitter cards -->
+</head>
