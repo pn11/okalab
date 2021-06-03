@@ -22,8 +22,8 @@ title: おからぶ
 #email: podcast@okanaoya.com
 description: >- # this means to ignore newlines until "baseurl:"
   おからぶは埼玉県和光市にある lab です。
-baseurl: "https://pn11.github.io/okalab/" # the subpath of your site, e.g. /blog
-url: ""
+baseurl: "/okalab" # the subpath of your site, e.g. /blog
+url: "https://pn11.github.io"
 twitter_username: nowohyeah
 github_username: pn11
 
