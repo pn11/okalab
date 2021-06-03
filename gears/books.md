@@ -1,7 +1,7 @@
 ---
 layout: gears
 title: 蔵書
-permalink: :path/books
+permalink: /gears/books
 ---
 
 - プログラミング、物理の本など色々
