@@ -1,7 +1,7 @@
 ---
 layout: gears
 title: 光学機器
-permalink: /gears/optical
+permalink: :path/gears/optical
 ---
 
 ## RICOH THETA

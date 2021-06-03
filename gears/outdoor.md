@@ -1,5 +1,5 @@
 ---
 layout: gears
 title: アウトドアギア
-permalink: /gears/outdoor
+permalink: :path/gears/outdoor
 ---
