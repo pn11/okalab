@@ -1,7 +1,7 @@
 ---
 layout: gears
 title: オーディオ機器
-permalink: :path/gears/audio
+permalink: :path/audio
 ---
 
 - audio-technica ATR2100x-USB

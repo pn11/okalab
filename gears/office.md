@@ -1,7 +1,7 @@
 ---
 layout: gears
 title: オフィス機器
-permalink: :path/gears/office
+permalink: :path/office
 ---
 
 - ScanSnap
