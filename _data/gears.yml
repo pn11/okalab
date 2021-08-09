@@ -1,0 +1,34 @@
+- title: 10/100M スイッチングハブ
+  category: network
+  bought year: 2009 ごろ
+  release year: 2003
+  vendor: BUFFALO
+  details: 最大 100 Mbps
+  model number: LSW-TX-8NP(C3)
+  urls:
+    - https://www.buffalo.jp/product/detail/lsw-tx-8np.html
+    - https://www.yodobashi.com/product/100000001000337414/
+- title: Ender3 pro
+  category: 3d printing
+  bought year: 2020
+  release year:
+  vendor: CREALITY
+  details: 
+  model number:
+  urls:
+- title: スティックPC
+  category: PC
+  bought year: 
+  release year:
+  vendor: Mouse Computer
+  details:
+  model number:
+  urls:
+- title: Matebook
+  category: PC
+  bought_year: 2017
+  release_year:
+  vendor: HUAWEI
+  details: 2017年2月ごろ購入し、画面の不具合で2017年9月ごろ本体交換済み。
+  model number:
+  urls:
